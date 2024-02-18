@@ -4,7 +4,8 @@ import Badge from "./components/Badge/Badge"
 import Banner from "./components/Banner/index"
 import Card from "./components/Card/index"
 import Testimonial from "./components/Testimonial/Testimonial"
-import { BsUpload, BsCloudUpload } from "react-icons/bs";
+import profileImage from "./images/abhay.jpg"
+import { BsUpload, BsCloudUpload } from "react-icons/bs"
 
 function App() {
   return ( 
@@ -53,7 +54,7 @@ function App() {
       <br />
       <br />
       <Testimonial
-        src="../../images/abhay.jpg"
+        src={profileImage}
         alt="profile pic of Abhay"
         name="Abhay Sahoo"
         designation="Workation, CTO"
@@ -72,7 +73,7 @@ function App() {
       <br />
       <br />
       <Testimonial
-        src="../../images/abhay.jpg"
+        src={profileImage}
         alt="profile pic of Abhay"
         name="Abhay Sahoo"
         designation="Workation, CTO"
